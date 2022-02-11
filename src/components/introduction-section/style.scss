@@ -1,0 +1,24 @@
+@use '../../styles/mixins'as *;
+
+.indroduction-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  margin-bottom: 50px;
+  word-break: keep-all;
+
+  .introduction {
+    display: flex;
+    line-height: 1.5;
+
+    width: 100%;
+    margin-left: 20px;
+    padding: 10px 0;
+
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
